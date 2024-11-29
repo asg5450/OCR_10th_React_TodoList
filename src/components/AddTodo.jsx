@@ -25,7 +25,6 @@ export default function AddTodo(props) {
         onChange={handleChange}
       />
       <button>추가</button>
-      <p>{text}</p>
     </form>
   );
 }
